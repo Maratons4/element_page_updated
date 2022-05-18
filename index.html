@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="lv">
+    <head>
+        <title>HTML Elementi</title>
+        <link href="main.css" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="center">HTML Elementi</h1>
+        <p class="paragraph">Šī lapa parāda HTML elementus (Ne visus!), un to izmantošanas piemērus.</p><br><br><br>
+        <iframe id="exampleFrame" class="right" src="about:blank" scrolling="yes" name="tester"></iframe>
+
+        <table>
+            <tr>
+                <th>Elements</th>
+                <th>Īss Paskaidrojums</th>
+                <th>Piemērs</th>
+            </tr>
+            <tr>
+                <th title="Komentārs">&lt;!----&gt;</th>
+                <th>Komentāri saitē nav<br>redzami, taču failā ir.</th>
+                <th><details><a href="frame.html" target="tester"><summary>Atklāt/Aizvērt piemēru</summary></a><code class="example">&lt;img src=abols.png alt=Ābols&gt;         &lt;!--Šis ir komentāra piemērs--&gt;</code></details></th>
+            </tr>
+            <tr>
+                <th>&lt;br&gt;</th>
+                <th>Atzīmē jaunu līniju saitē.</th>
+                <th><details><summary>Atklāt/Aizvērt piemēru</summary><code class="example">&lt;div class=text&gt;Pirmais, otrais, ceturtais.&lt;br&gt;Trešais, piektais, sestais.</code></details></th>
+            </tr>
+            <tr>
+                <th>&lt;p&gt;</th>
+                <th>Atzīmē rindkopu.</th>
+                <th><details><summary>Atklāt/Aizvērt piemēru</summary><code class="example">&lt;p&gt;Šajā dienā viņš to nespēja, bet nākamajā, varbūt varēs.&lt;/p&gt;</code></details></th>
+            </tr>
+        </table>
+        <script>
+            console.log("Site loaded.");
+        </script>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    background-image: url("img/background.png");
+    font-family: 'Ubuntu', sans-serif;
+}
+.center {
+    text-align: center;
+}
+h1 {
+    font-size: 38px;
+}
+.paragraph {
+    font-size: 20px;
+}
+.example {
+    background-color: rgb(37, 37, 139);
+    color: aliceblue;
+    font-family: 'Source Code Pro', monospace;
+}
+table, th, td {
+    border: 10px solid rgb(16, 101, 122);
+    border-style: outset;
+    align-items: center;
+}
+th {
+    background-color: aquamarine;
+}
+tr {
+    background-color: darkcyan;
+}
+tr:nth-child(odd) {
+    background-color: rgb(33, 184, 184);
+}
+tr:hover {
+    background-color: darkseagreen;
+}
+iframe {
+    border: 1px solid black;
+}
+.right {
+    text-align: right;
+}
